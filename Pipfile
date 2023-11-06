@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "==1.28.78"
+botocore = "==1.31.78"
+certifi = "==2023.7.22"
+charset-normalizer = "==3.3.2"
+idna = "==3.4"
+jmespath = "==1.0.1"
+numpy = "==1.26.1"
+pandas = "==2.1.2"
+python-dateutil = "==2.8.2"
+pytz = "==2023.3.post1"
+requests = "==2.31.0"
+s3transfer = "==0.7.0"
+six = "==1.16.0"
+tzdata = "==2023.3"
+urllib3 = "==1.26.18"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
